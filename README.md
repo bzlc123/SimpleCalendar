@@ -77,4 +77,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
+版权
+-------
+
 作者: [闫伟强](https://github.com/yanweiqiang)

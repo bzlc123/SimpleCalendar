@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/week_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/sunday"
+        android:textColor="@color/font_color_weekday" />
+
+    <TextView
+        android:id="@+id/week_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/monday"
+        android:textColor="@color/font_color_workday" />
+
+    <TextView
+        android:id="@+id/week_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/tuesday"
+        android:textColor="@color/font_color_workday" />
+
+    <TextView
+        android:id="@+id/week_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/wednesday"
+        android:textColor="@color/font_color_workday" />
+
+    <TextView
+        android:id="@+id/week_5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/thursday"
+        android:textColor="@color/font_color_workday" />
+
+    <TextView
+        android:id="@+id/week_6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/friday"
+        android:textColor="@color/font_color_workday" />
+
+    <TextView
+        android:id="@+id/week_7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/saturday"
+        android:textColor="@color/font_color_weekday" />
+</LinearLayout>

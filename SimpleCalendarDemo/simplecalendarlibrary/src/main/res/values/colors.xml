@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="font_color_past">#ffd8d8d8</color>
+    <color name="font_color_today">#ff386395</color>
+    <color name="font_color_after">#ff000000</color>
+    <color name="font_color_decorator">#ff000000</color>
+    <color name="font_color_weekday">#ff386395</color>
+    <color name="font_color_workday">#ff000000</color>
+    <color name="font_color_month">#ff386395</color>
+</resources>

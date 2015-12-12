@@ -47,12 +47,16 @@ public class MainActivity extends AppCompatActivity {
         Calendar calendar = Calendar.getInstance();
 
         //日历开始时间
-        Calendar start = new GregorianCalendar(calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH));
-        start.add(Calendar.DAY_OF_MONTH, -10);
+        Calendar start = new GregorianCalendar(calendar.get(Calendar.YEAR), 
+												calendar.get(Calendar.MONTH), 
+												calendar.get(Calendar.DAY_OF_MONTH));
+												start.add(Calendar.DAY_OF_MONTH, -10);
 
         //日历结束时间
-        Calendar end = new GregorianCalendar(calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH));
-        end.add(Calendar.DAY_OF_MONTH, 180);
+        Calendar end = new GregorianCalendar(calendar.get(Calendar.YEAR),
+												calendar.get(Calendar.MONTH), 
+												calendar.get(Calendar.DAY_OF_MONTH));
+												end.add(Calendar.DAY_OF_MONTH, 180);
 
         //初始化日历
         calendarView.init(start, end);
@@ -61,7 +65,9 @@ public class MainActivity extends AppCompatActivity {
         calendarView.setOnDatePickerListener(new OnDatePickerListener() {
             @Override
             public void onPicked(Calendar calendar) {
-                Toast.makeText(MainActivity.this, new SimpleDateFormat("yyyy-MM-dd", Locale.CHINA).format(calendar.getTime()), Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, 
+								new SimpleDateFormat("yyyy-MM-dd", Locale.CHINA).format(calendar.getTime()), 
+								Toast.LENGTH_SHORT).show();
             }
         });
 		

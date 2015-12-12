@@ -1,5 +1,6 @@
 # SimpleCalendar
 简单的日历控件，界面优美，比系统灵活，可根据需求自行修改源码。在我做过的一个项目中使用，因为产品对日历有特殊的要求，没有适合的开源项目，就自己随手写了出来，希望可以帮助大家。
+项目名称ByDay，可在各大流行的应用市场中下载，想看效果的可以去使用一下。
 
 ![screenshot](https://github.com/yanweiqiang/SimpleCalendar/blob/master/Screenshot.png "screenshot")
 

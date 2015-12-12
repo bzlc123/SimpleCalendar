@@ -40,5 +40,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, new SimpleDateFormat("yyyy-MM-dd", Locale.CHINA).format(calendar.getTime()), Toast.LENGTH_SHORT).show();
             }
         });
+		
+		//如果您需要将日历嵌入ScrollView或其它可滚动View的话请调用一下此方法就可解决冲突
+        //calendarView.requestRealHeight();
     }
 }

@@ -1,5 +1,7 @@
 # SimpleCalendar
-简单的日历控件，界面优美，比系统灵活，可根据需求自行修改源码。
+简单的日历控件，界面优美，比系统灵活，可根据需求自行修改源码。在我做过的一个项目中使用，因为产品对日历有特殊的要求，没有适合的开源项目，就自己随手写了出来，希望可以帮助大家。
+
+![screenshot](https://github.com/yanweiqiang/SimpleCalendar/blob/master/Screenshot.png "screenshot")
 
 # 使用方法
 
@@ -9,6 +11,7 @@
 
 layout代码示例：
 
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -28,9 +31,10 @@ layout代码示例：
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>
-
+```
 activity代码示例：
 
+```java
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -59,5 +63,9 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, new SimpleDateFormat("yyyy-MM-dd", Locale.CHINA).format(calendar.getTime()), Toast.LENGTH_SHORT).show();
             }
         });
+		
+		//如果您需要将日历嵌入ScrollView或其它可滚动View的话请调用一下此方法就可解决冲突
+        //calendarView.requestRealHeight();
     }
 }
+```

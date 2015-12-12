@@ -4,8 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.yan.simplecalendar.widget.OnDatePickerListener;
-import com.yan.simplecalendar.widget.SimpleCalendarView;
+import com.yanwq.simplecalendarlibrary.widget.OnDatePickerListener;
+import com.yanwq.simplecalendarlibrary.widget.SimpleCalendarView;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

@@ -12,7 +12,7 @@
 
     <include layout="@layout/item_week_title" />
 
-    <com.yan.simplecalendar.widget.SimpleCalendarView
+    <com.yanwq.simplecalendarlibrary.widget.SimpleCalendarView
         android:id="@+id/main_simple_calendar"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
